@@ -1,0 +1,43 @@
+.viva-title-1 {
+    color: #FA804C;
+}
+
+.viva-title-2 {
+    color: #363958;
+}
+
+.viva-button {
+    background-image: linear-gradient( #3D4FF3, #3543BC);
+    padding: 10px 25px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.viva-card {
+    border: 0;
+    border-radius: 20px;
+}
+
+.viva-card img {
+    border: none;
+    border-radius: 20px;
+}
+.viva-card img {
+    background-color: #f1f1f1;
+    height: auto;
+}
+.viva-card h4,
+.viva-card h2 {
+    font-weight: 900;
+}
+
+.viva-card-footer {
+    border: 0;
+    background-color: white;
+}
+
+.viva-card .viva-card-icon {
+    width: 100px;
+    background-color: white;
+}
