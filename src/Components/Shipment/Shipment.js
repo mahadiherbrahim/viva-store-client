@@ -21,7 +21,7 @@ const Shipment = () => {
 
         console.log(shipmentData);
 
-        const url = `http://localhost:5000/addOrder`;
+        const url = `https://warm-bayou-85170.herokuapp.com/addOrder`;
         fetch(url,{
             method: 'POST',
             headers: {

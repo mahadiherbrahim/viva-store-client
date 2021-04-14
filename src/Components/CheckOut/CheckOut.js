@@ -12,7 +12,7 @@ const CheckOut = () => {
     const [product, setProduct] = useState('');
 
     useEffect(() => {
-        fetch(`http://localhost:5000/checkout/${id}`)
+        fetch(`https://warm-bayou-85170.herokuapp.com/checkout/${id}`)
             .then(res => res.json())
             .then(data => setProduct(data))
     }, [id])

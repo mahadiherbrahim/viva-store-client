@@ -7,14 +7,14 @@ const ManageProducts = () => {
     const [products, setProducts] = useState([])
 
     useEffect(()=>{
-        fetch('http://localhost:5000/products')
+        fetch('https://warm-bayou-85170.herokuapp.com/products')
         .then(res => res.json())
         .then(data => setProducts(data))
     },[])
 
 
     const deleteProduct = (id) => {
-        fetch(`http://localhost:5000/delete/${id}`,{
+        fetch(`https://warm-bayou-85170.herokuapp.com/delete/${id}`,{
             method:'DELETE'
         })
         .then(res => res.json())

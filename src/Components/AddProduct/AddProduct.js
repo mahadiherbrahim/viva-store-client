@@ -22,7 +22,7 @@ const AddProduct = () => {
 
         console.log(productData);
 
-        const url = `http://localhost:5000/addProduct`;
+        const url = `https://warm-bayou-85170.herokuapp.com/addProduct`;
         fetch(url,{
             method: 'POST',
             headers: {
