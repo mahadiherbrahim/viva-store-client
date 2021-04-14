@@ -21,7 +21,6 @@ const ManageProducts = () => {
         .then(result => {
             console.log(result);
         })
-
     }
 
     return (
